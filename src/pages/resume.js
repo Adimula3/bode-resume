@@ -68,7 +68,7 @@ function Resume() {
                                    <span className="progress-right">
                     <span className="progress-bar"></span>
                 </span>
-                                   <div className="progress-value">90%</div>
+                                   <div className="progress-value">PYTHON</div>
                                </div>
                            </Col>
                            <Col md={3}>
@@ -79,7 +79,7 @@ function Resume() {
                                    <span className="progress-right">
                     <span className="progress-bar"></span>
                 </span>
-                                   <div className="progress-value">75%</div>
+                                   <div className="progress-value">EXCEL</div>
                                </div>
                            </Col>
                            <Col md={3}>
@@ -90,7 +90,7 @@ function Resume() {
                                    <span className="progress-right">
                     <span className="progress-bar"></span>
                 </span>
-                                   <div className="progress-value">60%</div>
+                                   <div className="progress-value">SQL</div>
                                </div>
                            </Col>
                            <Col md={3}>
@@ -101,7 +101,9 @@ function Resume() {
                                    <span className="progress-right">
                     <span className="progress-bar"></span>
                 </span>
-                                   <div className="progress-value">60%</div>
+
+
+                                   <div className="progress-value">POWER BI</div>
                                </div>
                            </Col>
                        </Row>
