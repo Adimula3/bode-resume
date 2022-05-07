@@ -1,32 +1,35 @@
 import React from 'react';
 import {Button, Col, Form, Row} from "react-bootstrap";
-import {Link} from "react-router-dom";
 
 function Contact() {
     return (
         <div>
             <section className="contact" id="contact">
                 <div className="container">
-                        <h4 className="section-title">Contact</h4>
-
+                    <div className="section-title">
+                        <h2>Contact</h2>
+                    </div>
                     <Row>
                         <Col lg={4}>
                             <div className="info">
                                 <div className="address">
+                                    <i className='bx bx-location-plus'></i>
                                     <h4>Location:</h4>
-                                    <p>A108 Adam Street, New York, NY 535022</p>
+                                    <p>MTN Plaza, Awolowo Rd, Ikoyi 101233,Lagos</p>
                                 </div>
                             </div>
                                 <div className="info">
                                 <div className="email">
+                                    <i className='bx bx-envelope'></i>
                                     <h4>Email:</h4>
-                                    <p>info@example.com</p>
+                                    <p>Olakitan0808@gmail.com</p>
                                 </div>
                                 </div>
                                     <div className="info">
                                 <div className="phone">
+                                    <i className='bx bx-mobile-alt'></i>
                                     <h4>Call:</h4>
-                                    <p>+1 5589 55488 55s</p>
+                                    <p>+234 810 432 2095</p>
                                 </div>
 
                             </div>
@@ -61,22 +64,6 @@ function Contact() {
                     </Row>
                 </div>
             </section>
-            <section className="footer">
-                <div className="container">
-                    <h3>Olabode Olaloluwa</h3>
-                    <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
-                    <div className="socials">
-                        <Link to="#" className="socials-link"><i className='bx bxl-twitter'></i></Link>
-                        <Link to="#" className="socials-link"><i className='bx bxl-facebook'></i></Link>
-                        <Link to="#" className="socials-link"><i className='bx bxl-linkedin'></i></Link>
-                        <Link to="#" className="socials-link"><i className='bx bxl-meta'></i></Link>
-                        <Link to="#" className="socials-link"><i className='bx bxl-github'></i></Link>
-                    </div>
-                </div>
-            </section>
-
-
-
         </div>
     );
 }

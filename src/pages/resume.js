@@ -1,50 +1,50 @@
 import React from 'react';
 import {Col, Row} from "react-bootstrap";
-import {CircleProgress} from 'react-gradient-progress'
 
 function Resume() {
     return (
         <div>
             <section className="resume" id="resume">
                 <div className="container">
-                        <h4 className="section-title">Resume</h4>
+                    <div className="section-title">
+                        <h2>Resume</h2>
+                    </div>
                     <Row>
                         <Col lg={6}>
                             <h5 className="resume-title">Summary</h5>
                             <div className="resume-item">
-                                <h4>Brandon Johnson</h4>
-                                <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
+                                <h4>Olabode Olaoluwa</h4>
+                                <p><em>A goal-oriented and visionary with over 2 years of experience in Information Technology.I wish to be in a dynamic professional environment with a growing organization and utilize my creativity and innovative thinking for benefit of the organization, my core strengths are Customer engagement, Active Collaboration, Planning, and Product Analysis.</em></p>
                                 <ul>
-                                    <li>Portland par 127,Orlando, FL</li>
-                                    <li>(123) 456-7891</li>
-                                    <li>alice.barkley@example.com</li>
+                                    <li>MTN Plaza, Awolowo Rd, Ikoyi 101233,Lagos</li>
+                                    <li>+234 810 432 2095</li>
+                                    <li>Olakitan0808@gmail.com</li>
                                 </ul>
                             </div>
                             <h5 className="resume-title">Education</h5>
                             <div className="resume-item">
                                 <h4>Bachelor of Computer science</h4>
-                                <h5>2016-2021</h5>
+                                <h5>2016-2020</h5>
                                 <p><em>Kwara state univeristy</em></p>
                             </div>
                         </Col>
                         <Col lg={6}>
                             <h4 className="resume-title">Professional Experience</h4>
                             <div className="resume-item">
-                                <h4>Data-Analyst & UI/UX Designer</h4>
-                                <h5>2019 - Present</h5>
-                                <p><em>Experion, New York, NY </em></p>
+                                <h4>Computer Warehouse Group (CWG) IT Support Staff</h4>
+                                <h5>2018 - 2019</h5>
+                                <h4>Data-Analyst & End user support engineer</h4>
+                                <h5>2021 - Present</h5>
+                                <p><em>MTN Nigeria (End User Support intern)</em></p>
                                 <ul>
-                                    <li>Lead in the design, development, and implementation of the graphic, layout, and
-                                        production communication materials
+                                    <li>Assist the team in technical presentation for training</li>
+                                    <li>Identify and tailor technical solutions to suit user needs</li>
+                                    <li>Analyze, develop and implement solutions for optimum data</li>
+                                    <li>Project manage the technical solution delivery to clients (requirements gathering, design/configuration, Proof of concept, and implementation)
                                     </li>
-                                    <li>Delegate tasks to the 7 members of the design team and provide counsel on all
-                                        aspects of the project.
-                                    </li>
-                                    <li>Supervise the assessment of all graphic materials in order to ensure quality and
-                                        accuracy of the design
-                                    </li>
-                                    <li>Oversee the efficient use of production project budgets ranging from $2,000 -
-                                        $25,000
+                                    <li>Monitor and control products implemented</li>
+                                    <li>Disseminate technical information to the entire team members</li>
+                                    <li>Foster active collaboration and relationships with employees across all levels and divisions.
                                     </li>
                                 </ul>
                             </div>
@@ -54,21 +54,55 @@ function Resume() {
             </section>
             <section className="skills" id="skills">
                 <div className="container">
-                    <h4 className="section-title">Skills</h4>
+                    <div className="section-title">
+                        <h2>Skills</h2>
+                    </div>
                     <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
                    <div className="skills-content">
                        <Row>
                            <Col md={3}>
-                               <CircleProgress percentage={70} strokeWidth={5} secondaryColor="#f0f0f0" width="150" primaryColor={["#a6defd", "#2c80c7"]}  /><span><em>Power bi</em></span>
+                               <div className="progress blue">
+                <span className="progress-left">
+                    <span className="progress-bar"></span>
+                </span>
+                                   <span className="progress-right">
+                    <span className="progress-bar"></span>
+                </span>
+                                   <div className="progress-value">90%</div>
+                               </div>
                            </Col>
                            <Col md={3}>
-                               <CircleProgress percentage={70} strokeWidth={5} secondaryColor="#f0f0f0" width="150" primaryColor={["#f1d69c", "#ead856"]}  /><span><em>Excel</em></span>
+                               <div className="progress yellow">
+                <span className="progress-left">
+                    <span className="progress-bar"></span>
+                </span>
+                                   <span className="progress-right">
+                    <span className="progress-bar"></span>
+                </span>
+                                   <div className="progress-value">75%</div>
+                               </div>
                            </Col>
                            <Col md={3}>
-                               <CircleProgress percentage={70} strokeWidth={5} secondaryColor="#f0f0f0" width="150" primaryColor={["#ee8a99", "#f38c9c"]}  /><span><em>SQL</em></span>
+                               <div className="progress pink">
+                <span className="progress-left">
+                    <span className="progress-bar"></span>
+                </span>
+                                   <span className="progress-right">
+                    <span className="progress-bar"></span>
+                </span>
+                                   <div className="progress-value">60%</div>
+                               </div>
                            </Col>
                            <Col md={3}>
-                               <CircleProgress percentage={70} strokeWidth={5} secondaryColor="#f0f0f0" width="150" primaryColor={["#9df1da", "#65d2b0"]}  /><span><em>Python</em></span>
+                               <div className="progress green">
+                <span className="progress-left">
+                    <span className="progress-bar"></span>
+                </span>
+                                   <span className="progress-right">
+                    <span className="progress-bar"></span>
+                </span>
+                                   <div className="progress-value">60%</div>
+                               </div>
                            </Col>
                        </Row>
                        </div>

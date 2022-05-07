@@ -4,9 +4,13 @@ import Header from "../component/header";
 import About from "./about";
 import Resume from "./resume";
 import Contact from "./contact";
+import Footer from "../component/footer";
+import Services from "./services";
+import MenuHeader from "../component/MenuHeader";
 function Hero() {
     return (
         <>
+            <main id="page-wrap">
             <section className="d-flex flex-column justify-content-center" id="hero">
                 <div className="container">
                     <h2>Olabode Olaoluwa</h2>
@@ -22,12 +26,15 @@ function Hero() {
             </section>
 
             <div className="main" id="main">
+                <MenuHeader />
                 <Header />
                 <About />
                 <Resume />
+                <Services />
                 <Contact />
+                <Footer />
             </div>
-
+            </main>
 
         </>
 
