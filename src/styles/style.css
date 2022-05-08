@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300&family=Square+Peg&family=Yanone+Kaffeesatz&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300&family=Shadows+Into+Light&family=Square+Peg&family=Yanone+Kaffeesatz&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300&family=Shadows+Into+Light&family=Square+Peg&family=Yanone+Kaffeesatz&display=swap');
+
+
 /*--------------------------------------------------------------
 # main
 --------------------------------------------------------------*/
@@ -301,11 +302,6 @@
 .about .counts p{
     margin-left: 35px;
     font-size: 20px;
-    font-family: 'Pacifico', cursive;
-    font-family: 'Quicksand', sans-serif;
-    font-family: 'Square Peg', cursive;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-
 }
 
 .about .img-box{
@@ -396,22 +392,12 @@
 
 }
 .resume .resume-item p {
-    font-size: 20px;
-    font-weight: lighter;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Pacifico', cursive;
-    font-family: 'Quicksand', sans-serif;
-    font-family: 'Shadows Into Light', cursive;
-    font-family: 'Square Peg', cursive;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 18px;
 
 }
 .resume .resume-item ul {
-    font-size: 20px;
-    font-family: 'Pacifico', cursive;
-    font-family: 'Quicksand', sans-serif;
-    font-family: 'Square Peg', cursive;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 18px;
+
 }
 /*--------------------------------------------------------------
 # Skills Section
@@ -468,14 +454,8 @@
 
 
 .service-content .s-description {
-    font-size: 20px;
-    font-weight: 100;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Pacifico', cursive;
-    font-family: 'Quicksand', sans-serif;
-    font-family: 'Shadows Into Light', cursive;
-    font-family: 'Square Peg', cursive;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 15px;
+
 }
 /*--------------------------------------------------------------
 # Contact Section
