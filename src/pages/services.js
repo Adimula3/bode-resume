@@ -17,9 +17,8 @@ function Services() {
                                 </div>
                                 <div className="service-content">
                                     <h2 className="s-title">End user support </h2>
-                                    <p className="s-description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                                        provident vitae! Magni
-                                        tempora perferendis eum non provident.</p>
+                                    <p className="s-description"> Providing an assistance to IT issues and disruptions, by being the first line of help to assist the end-user
+                                         when they encounter problems with software or applications or a defect in an IT program.</p>
                                 </div>
                             </div>
                         </Col>
@@ -30,9 +29,9 @@ function Services() {
                                 </div>
                                 <div className="service-content">
                                     <h2 className="s-title">Data Analyst</h2>
-                                    <p className="s-description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                                        provident vitae! Magni
-                                        tempora perferendis eum non provident.</p>
+                                    <p className="s-description">Collecting,processing and presenting data to business owners in form of actionable insight while avoiding
+                                        investment in the development and administration of analytic solution.
+                                        </p>
                                 </div>
                             </div>
                         </Col>
@@ -43,9 +42,8 @@ function Services() {
                                 </div>
                                 <div className="service-content">
                                     <h2 className="s-title">Software Tester</h2>
-                                    <p className="s-description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                                        provident vitae! Magni
-                                        tempora perferendis eum non provident.</p>
+                                    <p className="s-description"> Offering of Software Testing services to an organization or a business such as Performance and Load Testing,
+                                        Mobile Application Testing,Usability Testing, Functionality Testing, UI Testing.</p>
                                 </div>
                             </div>
                         </Col>

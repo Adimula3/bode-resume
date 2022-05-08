@@ -7,7 +7,7 @@ function Footer() {
             <footer className="footer">
                 <div className="container">
                     <h3>Olabode Olaloluwa</h3>
-                    <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+                    <p></p>
                     <div className="socials">
                         <Link to="#" className="socials-link"><i className='bx bxl-twitter'></i></Link>
                         <Link to="#" className="socials-link"><i className='bx bxl-facebook'></i></Link>

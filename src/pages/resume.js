@@ -57,7 +57,7 @@ function Resume() {
                     <div className="section-title">
                         <h2>Skills</h2>
                     </div>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    <p>Data analysis skills are technical skills that a data analyst needs to report insights and analyse data,The ability to communicate in multiple formats is a key data analyst skill</p>
                    <div className="skills-content">
                        <Row>
                            <Col md={3}>
