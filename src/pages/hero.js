@@ -21,9 +21,9 @@ function Hero() {
                             sequence={[
                                 ' Data-Analyst',
                                 3000,
-                                ' Designer',
+                                ' End-User Support',
                                 3000,
-                                ' Freelancer.',
+                                ' Software-Tester.',
                                 3000
                             ]}
                             wrapper="span"
