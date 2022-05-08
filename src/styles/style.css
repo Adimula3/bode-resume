@@ -12,7 +12,12 @@
     padding-right: 30px;
 }
 @media (max-width: 768px) {
-      #main {
+
+    #header {
+        display: none;
+    }
+
+    #main {
           padding: 0 15px 0 15px;
       }
 
@@ -20,7 +25,6 @@
         display: block;
 
     }
-
 
     /* Position and sizing of burger button */
 
@@ -249,8 +253,7 @@
     margin: 50px 0 50px 0;
     background: #f2f6f9;
     width: 100%;
-    height: 80vh;
-    padding: 0;
+    padding: 10px 0px 40px;
 }
 .about h4{
     text-align: center;
@@ -293,15 +296,41 @@
 
 }
 
+.about .img-box{
+    margin-top: 0px;
+    padding-top: 0px;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+}
+
+.about .img-box .bode {
+    position: relative;
+    top: -70px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    object-fit: cover;
+}
+
 @media (max-width: 768px) {
     .about{
-        width: 100%;
-        height: 200vh;
+        padding: 10px;
     }
-    .about .bode {
-        height: 380px;
-        width: 350px;
+    .about .img-box{
+        margin-top: 0px;
+        padding-top: 0px;
+        height: 400px;
+        width: 100%;
+        position: relative;
+    }
+
+    .about .img-box .bode {
+        position: relative;
+        top: -20px;
+        width: 100%;
         align-items: center;
+        object-fit: cover;
     }
     .about h4{
         margin-top: 10px;
@@ -379,12 +408,11 @@
     padding: 10px;
     background: #f2f6f9;
     width: 100%;
-    height: 50vh;
+    padding: 25px 10px;
 }
 @media (max-width: 768px) {
     .skills {
         width: 100%;
-        height: 180vh;
     }
     .skills-content {
         text-align: center;
