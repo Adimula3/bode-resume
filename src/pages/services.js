@@ -18,7 +18,7 @@ function Services() {
                                 <div className="service-content">
                                     <h2 className="s-title">End user support </h2>
                                     <p className="s-description"> Providing an assistance to IT issues and disruptions, by being the first line of help to assist the end-user
-                                         when they encounter problems with software or applications or a defect in an IT program.</p>
+                                         when they encounter problems with software or applications or a defect in an IT program..</p>
                                 </div>
                             </div>
                         </Col>
