@@ -6,7 +6,6 @@ import Resume from "./resume";
 import Contact from "./contact";
 import Footer from "../component/footer";
 import Services from "./services";
-import MenuHeader from "../component/MenuHeader";
 function Hero() {
     return (
         <>
@@ -26,7 +25,6 @@ function Hero() {
             </section>
 
             <div className="main" id="main">
-                <MenuHeader />
                 <Header />
                 <About />
                 <Resume />

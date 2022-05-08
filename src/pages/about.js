@@ -11,7 +11,10 @@ function About() {
                     </div>
                     <Row>
                         <Col lg={5}>
-                            <img className="bode" src={require("../assests/Img/bode2.jpeg" )} alt="" height="420" width="500"></img>
+                            <div className="img-box">
+                                <img className="bode" src={require("../assests/Img/bode2.jpeg" )} alt=""></img>
+                            </div>
+
                         </Col>
                         <Col lg={7}>
                             <div className="content">
