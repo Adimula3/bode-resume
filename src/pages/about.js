@@ -18,7 +18,7 @@ function About() {
                         </Col>
                         <Col lg={7}>
                             <div className="content">
-                                <h4>Data-Analyst & UI/UX Designer</h4>
+                                <h4>Data-Analyst & End User Support Engineer</h4>
                             </div>
                             <Row>
                                 <Col md={6}>
